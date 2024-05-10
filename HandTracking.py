@@ -2,9 +2,7 @@ import cv2  # Can be installed using "pip install opencv-python"
 import mediapipe as mp  # Can be installed using "pip install mediapipe"
 import time
 import math
-import numpy as np
-
-
+# import numpy as np
 class handDetector():
     def __init__(self, mode=False, maxHands=2, detectionCon=False, trackCon=0.5):
         self.mode = mode
